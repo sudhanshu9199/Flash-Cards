@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Flash Cards</title>
+  </head>
+  <body>
+    <h3>Flash Cards</h3>
+    <div class="bar">
+      <div class="progress" style="width: 0%">Loading...</div>
+      <span class="reviewed-text">0 of 0 Reviewed</span>
+    </div>
+    <div class="container">
+      <div class="card1">
+        <div class="front reviewed-status">
+          <h1 aria-labelledby="Here is question">Front of Card</h1>
+          <p>Question on the front of the card.</p>
+        </div>
+        <div class="back">
+          <h1 class="hereAns" aria-labelledby="Here is Answer">Answer here</h1>
+          <p>Additional info on the back of the card.</p>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="prev" aria-label="Previous Card">
+          <img class="arrow" src="left arrow.png" alt="Previous" />
+          <p>Previous</p>
+        </div>
+        <div class="hide" aria-label="Show or Hide Answer">
+          <p>Show Answer</p>
+        </div>
+        <div class="next" aria-label="Next Card">
+          <p>Next</p>
+          <img class="arrow" src="right arrow icon.png" alt="Next" />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
